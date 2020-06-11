@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.ControllerServer">
+   <children>
+      <TextArea fx:id="textAreaServer" editable="false" layoutX="102.0" layoutY="90.0" prefHeight="248.0" prefWidth="448.0" />
+      <Label layoutX="301.0" layoutY="54.0" text="События:" />
+      <Button fx:id="startServerButt" layoutX="270.0" layoutY="14.0" mnemonicParsing="false" onAction="#startServer" text="Запустить сервер" />
+      <Button fx:id="updateButt" layoutX="241.0" layoutY="352.0" mnemonicParsing="false" onAction="#update" text="Обновить информацию" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ControllerClient">
+   <children>
+      <Label layoutX="85.0" layoutY="129.0" text="Отправить сообщение:" />
+      <Label layoutX="376.0" layoutY="33.0" text="Отправленные сообщения:" />
+      <TextArea fx:id="sendedMessagesTextArea" editable="false" layoutX="321.0" layoutY="59.0" prefHeight="301.0" prefWidth="260.0" />
+   </children>
+</AnchorPane>
